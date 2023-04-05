@@ -2,10 +2,11 @@
 Repositorio para Fundamentos de Ingenieria de Software
 
 
-
 TURNO NOCTURNO   N4A  - GRUPO 1 - 2023
 
-FERNANDO MAGLIANO
+Fernando Magliano
+Felipe Ghione
+Ignacio Santalla
 
 # OBLIGATORIO 1 #
 
@@ -68,7 +69,7 @@ FERNANDO MAGLIANO
 ## Actividades de investigacion ##
 
 ### Entrevistas ###
-Se realizaron entrevistas a padres y abuelos de niños que concurren al colegio Inges en  Montevideo sobre la construccion de una app para el comedor escolar.
+Se realizaron entrevistas a padres y abuelos de niños que concurren al colegio Ingles en  Montevideo sobre la construccion de una app para el comedor escolar.
 Se hicieron preguntas sobre la alimentacion que desearian para sus hijos, nietos etc. y sobre las funcionalidades que deberia tener dicha aplicacion
 De dichas entrevistas se vio el interes de que las comidas servidas sean balanceadas, con una funcion nutricional, la cual permita satisfacer las necesidades de los niños.
 Saber que  comen los niños en el comedor y que el comedor tenga una funcion educadora para establecer habitos alimenticios saludables que ayuden en el desarrollo y promocion de la salud.
