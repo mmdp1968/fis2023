@@ -4,9 +4,9 @@ Repositorio para Fundamentos de Ingenieria de Software
 
 TURNO NOCTURNO   N4A  - GRUPO 1 - 2023
 
-Fernando Magliano
 Felipe Ghione
 Ignacio Santalla
+Fernando Magliano
 
 # OBLIGATORIO 1 #
 
