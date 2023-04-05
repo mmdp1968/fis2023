@@ -117,14 +117,6 @@ Los padres de los niños en edad preescolar sugieren que los niños coman en un 
 ### Modelo conceptual del problema ###
 
 
-
-
-
-
-
-
-
-
 # ESPECIFICACIONES #
 
 ## Requisitos funcionales ##
