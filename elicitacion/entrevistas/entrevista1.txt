@@ -1,31 +1,34 @@
-ENTREVISTA #1
+ENTREVISTA #1 
 
-Nombre:  Manuel
-Edad:  43
-Parentesco: Padre de un niño de 9 años que concurre al colegio Ingles.
+Nombre:  Pablo
+Edad:  39
+Profesion: abogado
+Parentesco: padre de Josefina niña de 5 años cursando  preescolar en el colegio Maturana
+
 
 
 1) Que piensa sobre los comedores escolares?
 
-   - Los comedores son muy importantes para padres ocupados, desempeñan una funcion nutricional y educativa.
-     Contribuyen a la adquisicion de habitos alimentarios y son un lugar para sociabilizar
+   - Son una buena opcion, pero tambien hay que asegurarse que la comida escolar sea segura y adecuada para la edad.
+     Hay ue tener cuidado con la alergias alimentarias y la higiene en la preparacion y manipulacion de los alimentos.
+     Estaria bueno que se llevara un registro de lo que cada alumno come para monitorear su dieta.
+     
+     
 
 2) Como deberian ser las comidas en el comedor escolar?
 
-  - el comedor deberia suministrar una alimentacion balanceada y nutritiva, ya que en el comen niños desde los 3 años a los 11 años y estan en pleno crecimiento.
-    Las frutas y verduras deberian estar en cada comida.
-
-3) Usted esta al tanto de lo que come su hijo en el comedor?
-
-  - todos los lunes se pone en cartelera cual va a ser el menu semanal, pero solo informacion basica como pollo con arroz.
-
-4) Como te gustaria que fuera la aplicacion del comedor?
-
-  - deberia ser facil de usar, tener el menu diario con todos los ingredientes por si alguno de los niños es alergico 
-    o tiene alguna otra contraindicacion
-  - se tendria que poder hacer los pedidos de los menus en linea y pagarlos en linea para facilitar la operacion.
-  - Estaria bueno que tuviera un sector para novedades, por ejemplo cuando hay algun evento, o se cambio el menu por otro.
+  - Las comidas deben ser balanceadas, nutritivas y saludables.
+    Se debe llevar a cabo una buena desinfeccion de las frutas y verdura y de todo el moviliario.
 
 
+3) Su hija concurre al comedor escolar?
 
- 
+  - No. Nosotros le mandamos la vianda y luego se compra algo en la cantina del colegio.
+    
+
+4) Como le gustaria que fuera la aplicacion del comedor?
+
+  - La aplicacion debe mostrar con lujo de detalles  los menus diarios, con todos los ingredientes y su valor nutricional 
+  - Tiene que haber comunicacion entre los padres o responsables de los niños y los encargados del comedor escolar
+  - LLevar un registro de las comidas de los niños
+    
