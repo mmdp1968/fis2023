@@ -84,17 +84,17 @@ En lo que respecta a la aplicacion deberia permitir a los padres ver el menu y u
 
 Se procedio a analizar una app existente llamada ColeChef.
 Al analizar la aplicacion se encontraron las siguientes funcionalidades:
-Se ve la claridad y sencillez de uso. 
-Permite ingresar a mas de un niño por padre para poder ver por separado sus necesidades.
-Se proporciona los menus, la informacion nutricional, los alergenos y todos los ingredientes de cada menu.
-Se proporciona las diferentes actividades del centro.
-Se puede encargar el menu para dias puntuales, por semana o mes.
-Permite recibir informacion sobre el comedor escolar en el telefono de forma directa y sencilla.
-Tiene incorporado un espacio en donde los padres pueden mandar mensajes o sugerencias al comedor.
-Se puede configurar el idioma de la aplicacion ya que esta en varios idiomas.
-En la parte de notificaciones se puede encontrar toda la informacion, los mensajes y la actividad de cada uno de los hijos en el comedor.
-Proporciona recomendaciones de re cenas en funcion de lo que el alumno comio al mediodia y tambien propuestas de desayunos y meriendas saludables.
-Tiene lo que se llama libreta viajera donde esta un informe diario completo de los mas pequeños.
+* Se ve la claridad y sencillez de uso. 
+* Permite ingresar a mas de un niño por padre para poder ver por separado sus necesidades.
+* Se proporciona los menus, la informacion nutricional, los alergenos y todos los ingredientes de cada menu.
+* Se proporciona las diferentes actividades del centro.
+* Se puede encargar el menu para dias puntuales, por semana o mes.
+* Permite recibir informacion sobre el comedor escolar en el telefono de forma directa y sencilla.
+* Tiene incorporado un espacio en donde los padres pueden mandar mensajes o sugerencias al comedor.
+* Se puede configurar el idioma de la aplicacion ya que esta en varios idiomas.
+* En la parte de notificaciones se puede encontrar toda la informacion, los mensajes y la actividad de cada uno de los hijos en el comedor.
+* Proporciona recomendaciones de re cenas en funcion de lo que el alumno comio al mediodia y tambien propuestas de desayunos y meriendas saludables.
+* Tiene lo que se llama libreta viajera donde esta un informe diario completo de los mas pequeños.
 
 En definitiva la aplicacion es muy buena, clara, comoda agil y segura.
 
