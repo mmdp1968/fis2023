@@ -69,7 +69,7 @@ Fernando Magliano
 ## Actividades de investigacion ##
 
 ### Entrevistas ###
-Se realizaron entrevistas a padres y abuelos de niños que concurren al colegio Ingles en  Montevideo sobre la construccion de una app para el comedor escolar.
+Se realizaron entrevistas a padres y abuelos de niños que concurren a varios colegios de  Montevideo (vecinos) sobre la construccion de una app para el comedor escolar.
 Se hicieron preguntas sobre la alimentacion que desearian para sus hijos, nietos etc. y sobre las funcionalidades que deberia tener dicha aplicacion
 De dichas entrevistas se vio el interes de que las comidas servidas sean balanceadas, con una funcion nutricional, la cual permita satisfacer las necesidades de los niños.
 Saber que  comen los niños en el comedor y que el comedor tenga una funcion educadora para establecer habitos alimenticios saludables que ayuden en el desarrollo y promocion de la salud.
@@ -82,40 +82,61 @@ En lo que respecta a la aplicacion deberia permitir a los padres ver el menu y u
 
 ### Ing. Inversa ###
 
-Se procedio a analizar un sistema existente en un comedor escolar para entender su funcionamiento interno.
-El primer paso, visitamos el comedor escolar para observar su funcionamiento y determinar sus componentes claves, la elaboracion de los alimentos, la limpieza de las instalaciones, la interaccion del personal con los alumnos y la organizacion general del comedor escolar.
-Se investigo a los proveedores para identificar las politicas de abastecimiento del comedor y los criterios para seleccionar los proveedores.
-Se entrevisto al personal para saber como funciona el comedor, los que proporcionan valiosa informacion sobre el proceso de preparacion de alimentos.
-Se evaluo el sistema de control para garantizar que se cumplan los requisitos de seguridad e higiene, las politicas de control de calidad y los procedimientos de limpieza.
-Se hizo uso de la aplicacion existente, viendo que cumplia con casi todos los puntos tocados en las entrevistas, con exepccion que no hay forma de que los padres puedan mandar sus ideas y sugerencias al comedor.
+Se procedio a analizar una app existente llamada ColeChef.
+Al analizar la aplicacion se encontraron las siguientes funcionalidades:
+Se ve la claridad y sencillez de uso. 
+Permite ingresar a mas de un niño por padre para poder ver por separado sus necesidades.
+Se proporciona los menus, la informacion nutricional, los alergenos y todos los ingredientes de cada menu.
+Se proporciona las diferentes actividades del centro.
+Se puede encargar el menu para dias puntuales, por semana o mes.
+Permite recibir informacion sobre el comedor escolar en el telefono de forma directa y sencilla.
+Tiene incorporado un espacio en donde los padres pueden mandar mensajes o sugerencias al comedor.
+Se puede configurar el idioma de la aplicacion ya que esta en varios idiomas.
+En la parte de notificaciones se puede encontrar toda la informacion, los mensajes y la actividad de cada uno de los hijos en el comedor.
+Proporciona recomendaciones de re cenas en funcion de lo que el alumno comio al mediodia y tambien propuestas de desayunos y meriendas saludables.
+Tiene lo que se llama libreta viajera donde esta un informe diario completo de los mas pequeños.
+
+En definitiva la aplicacion es muy buena, clara, comoda agil y segura.
+
 
 
 ### Tormenta de ideas ###
 
-Se realizo una reunion en el patio de la escuela, donde se piensa poner en practica la aplicacion, con varios padres, abuelos, maestros y los desarrolladores.
-En esta reunion se tiraron varias ideas de como podria llevarse a cabo la aplicacion, como las funcionalidades que deberia tener segun cada uno de los participantes.
-Los padres estaban interesados en el tipo de comida que se vende en el comedor, y como controlar que sus hijos no coman muchas galletitas y dulces para lo que propusieron vender comidas saludables y saber de antemano cual va a ser el menu diario y que productos posee
-Las maestras tenen variados menus con los ingredientes de cada uno de sus productos visibles, porque varios de ellos tienen alergias, son diabeticos o tienen intolerancias
-Los padres de los niños en edad preescolar sugieren que los niños coman en un sector aparte o en otro horario ya que necesitan mas atencion
+De las entrevistas realizadas, y de los datos de la ingenieria inversa se tiraron las siguientes ideas para la aplicacion:
+
+
+- que se pueda pagar en linea y hacer los pedidos por la aplicacion 
+- mandar sugerencias y recomendaciones al comedor
+- que el comedor pueda mandar mensaje a los padres
+- poder ver las compras de los niños
+- poder ver el listado de todos los productos que vende el comedor aparte de los almuerzos
+- que se pueda pedir para un dia en particular o para toda la semana
+- saber de antemano cual va a ser el menu diario y que productos posee.
+- tener variados menus con los ingredientes de cada uno de sus productos visibles, porque varios de ellos tienen alergias, son diabeticos o tienen intolerancias
+- que los niños en edad preescolar  coman en un sector aparte o en otro horario ya que necesitan mas atencion.
+- asegurar la higiene del comedor
 
 ### Referencias a fuentes de informacion ###
 
 - Las entrevistas se pueden ver en elicitacion/entrevistas
-- La tormenta de ideas se pueden ven en elicitacion/tormentadeideas
 - Los datos recopilados de Ing. Inversa se puede ver en elicitaciones/inginversa
 
 
 ### USERPERSONAS ###
 
 - se hicieron user personas para 3 responsables de niños.
-- Camila y Marcos abuelos de Juan que cursa  6do año en el colegio Ingles.
-- Maria Isabel madre de Melisa que concurre al jardin 3 años  del colegio Ingles.
+- Camila y Marcos abuelos de Juan que cursa  6do año en el colegio San Pablo.
+- Maria Isabel madre de Melisa que concurre al jardin 3 años  del colegio Clara Jackson.
 - Juan Pablo padre de Antonio que cursa 2do año en el colegio Ingles.
 
 - Los user personas pueden verse en elicitacion/userpersonas
 
 
 ### Modelo conceptual del problema ###
+
+ver en modeloconceptual
+
+
 
 
 # ESPECIFICACIONES #
@@ -159,15 +180,39 @@ Los padres de los niños en edad preescolar sugieren que los niños coman en un 
   Descripcion: La aplicacion debe permitir pagar los gastos de su hijo en linea
   Prioridad: Alta.
 
+- Notificar al usuario de su próximo pago
+  Actor: Usuario.
+  Descripcion: El sistema debe ser capaz de notificar al usuario una vez al mes cuanto deberá abonar, la cantidad a ser pagada es lo gastado por la cuenta.
+  Prioridad: Alta.
+
+- Permitir agregar nuevas funcionalidades al sistema
+  Actor: Administrador.
+  Descripcion: El sistema debe ser capaz de permitir al usuario administrador agregar nuevas funcionalidades a la aplicación.
+  Prioridad: Alta.
+
+- Permitir modificar el menú, sea agregar o quitar elementos del menú.
+  Actor: Funcionario del comedor.
+  Descripcion: El sistema debe permitir al Funcionario del comedor agregar o quitar un alimento o bebida.
+  Prioridad: Alta.
+
+- Permitir que el Funcionario del comedor pueda modificar una comida del menú.
+  Actor: Funcionario del comedor.
+  Descripcion: El sistema debe permitir que el Funcionario del comedor pueda modificar la  descripcion de un plato determinado, como por ejemplo los ingredientes utilizados en su preparación.
+  Prioridad: Alta.
+
+
+
 
 ## Requisitos no funcionales ##
 
-- El sistema debe poder permitir ingresar 500 ocurrencias (cantidad de niños de la escuela)
+- El sistema debe poder permitir ingresar 500 ocurrencias (cantidad de niños de la escuela).
 - La interfaz de usuario será implementada para navegadores web únicamente con HTML5 y JavaScript.
 - La aplicación debe ser compatible con todas las versiones de Windows, desde Windows 95.
 - La aplicación debe ser compatible con todas las versiones de android, desde android 9.0
-- El sistema debe ser responsive
-- 
+- El sistema debe ser responsive.
+- El sistema debe ser compatible con todas las versiones de IOS 14.0 en adelante.
+- La Aplicación debe ser bilingue, o sea que tenga la opción de elegir entre español o inglés.
+- La Aplicación debe tener disponible para su uso un modo oscuro y un modo claro.
 
 ## User Stories / User casos detallados ##
 
@@ -203,11 +248,13 @@ ________________________________________________________________________________
 #### Caso 3 ... Compras
 # ---------------------
 
-Actor: Usuario
+Actor: Personal del comedor
 Descripcion: El personal del comedor debera ingresar al historial del alumno las compras que realize en el comedor y la forma en que las paga o pagara.
 
 #### Curso basico
 ##### Accion de los usuarios                                                         Respuesta del sistema
+- se ingresa al sector comedor                                         - se abre el menu de posibilidades (compras, subir menu, cambiar menu)
+- se ingresa al compras                                                - el sistema pide el nombre del alumno
 - se ingresa el nombre del alumno                                      - el sistema entra al historial del alumno
 - se ingresa de a uno los productos comprados                          - el sistema pregunta como lo va a pagar
 - se ingresa la forma de pago                                          - el sistema entra al historial del alumno y lo ingresa, si es a cuenta lo suma a un subtotal a pagar
@@ -235,7 +282,7 @@ Descripcion: el usuario ingresa a icono y se le desplegara un listado de todos l
 
 #### Curso basico
 ##### Accion de los usuarios                                                    Respuesta del sistema
-- el usuario clickea sobre el icono de productos                         - el sistema devuelve una lists de todos los productos que vende el comedor, con su precio.
+- el usuario clickea sobre el icono de productos                         - el sistema devuelve una lista de todos los productos que vende el comedor, con su precio.
 
 ____________________________________________________________________________________________________________________________________________________________________________
 #### Caso 6 ... Sugerencias y comentarios
@@ -261,6 +308,35 @@ Descripcion: el sistema abre el historial y si subtotal es distinto de 0 lo redi
 - el usuario elige la forma de pago                                      - el sistema lo redirecciona al sitio correspondiente
 
 ____________________________________________________________________________________________________________________________________________________________________________
+#### Caso 8 ... Modificar Menu
+# ----------------------------
+
+Actor: Personal del Comedor
+Descripcion: el sistema abre el area de los menus y permite cambiar el menu o eliminar productos de los mismos
+
+#### Curso basico
+##### Accion de los usuarios                                                   Respuesta del sistema
+- se ingresa al sector comedor                                            - el sistema abre el menu de posibilidades (compras, menus, modificar menu)
+- se ingresa a modificar menu                                             - el sistema proporciona los menus a modificar
+- se hacen las modificiaciones                                            - el sistema cierra la aplicacion
+
+____________________________________________________________________________________________________________________________________________________________________________
+#### Caso 9 ... Ingresar Menus
+# ----------------------------
+
+Actor: Personal del comedor
+Descripcion: el sistema permite ingresar los menus diarios y semanales
+
+#### Curso basico                                                              
+##### Accion de los usuarios                                                  Respuesta del sistema
+ - se ingresa al sector comedor                                              - el sistema abre el menu de posibilidades (compras, menus, modificar menu)
+ - se ingresa a menus                                                        - el sistema pide que menu quiere ingresar  ( diario o semanal)
+ - se ingresa al deseado                                                     - si ingreso a diario se ingresa el menu diario y si ingreso a semanal le va indicando los dias
+                                                                               para que los ingrese. Al terminar el sistema cierra la seccion
+
+________________________________________________________________________________________________________________________________________________________________________
+
+
 
 ## bocetos de IU ##
 
@@ -275,3 +351,4 @@ ________________________________________________________________________________
 # REFLEXION INDIVIDUAL
 
 -----------------
+
