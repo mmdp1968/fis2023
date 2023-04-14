@@ -118,8 +118,8 @@ De las entrevistas realizadas, y de los datos de la ingenieria inversa se tiraro
 
 ### Referencias a fuentes de informacion ###
 
-- Las entrevistas se pueden ver en elicitacion/entrevistas
-- Los datos recopilados de Ing. Inversa se puede ver en elicitaciones/inginversa
+- Las entrevistas se pueden ver en fis2023/elicitacion/entrevistas
+- Los datos recopilados de Ing. Inversa se puede ver en fis2023/elicitacion/inginversa
 
 
 ### USERPERSONAS ###
@@ -134,7 +134,7 @@ De las entrevistas realizadas, y de los datos de la ingenieria inversa se tiraro
 
 ### Modelo conceptual del problema ###
 
-ver en modeloconceptual
+ver en fis2023/modeloconceptual
 
 
 
@@ -343,7 +343,7 @@ ________________________________________________________________________________
 
 ## bocetos de IU ##
 
-
+Los bocetos de la interfaz se pueden ver en fis2023/bocetosIU.
 
 
 # VALIDACION Y VERIFICACION
