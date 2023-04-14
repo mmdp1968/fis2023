@@ -257,15 +257,18 @@ Descripcion: El personal del comedor debera ingresar al historial del alumno las
 - se ingresa al compras                                                - el sistema pide el nombre del alumno
 - se ingresa el nombre del alumno                                      - el sistema entra al historial del alumno
 - se ingresa de a uno los productos comprados                          - el sistema pregunta como lo va a pagar
-- se ingresa la forma de pago                                          - el sistema entra al historial del alumno y lo ingresa, si es a cuenta lo suma a un subtotal a pagar
+- se ingresa la forma de pago                                          - el sistema entra al historial del alumno e  ingresa las compras, 
+                                                                        si es a cuenta lo suma a un subtotal a pagar y si es en efectivo los sube al historial
+                                                                        pero sin valor
 
+                                                                        
 ____________________________________________________________________________________________________________________________________________________________________________
 #### Caso 4 ... Historial 
 # -----------------------
 Actor: Usuario
 Precondicion: Haber comprado en el comedor escolar
-Descripcion: el sistema le pide al usuario el nombre y le devuelve un listado de todos los productos comprados en el comedor, con sus precios y como lo pago.
-             El historial se borra automaticamente a fin de año siempre y cuando no halla productos por pagar, en ese caso manda un aviso al comedor.
+Descripcion: el sistema le pide al usuario el nombre y le devuelve un listado de todos los productos comprados en el comedor, ya sea los menus o los productos adicionales, con sus precios y un total a pagar.
+             El historial se borra automaticamente a fin de año siempre y cuando no halla productos por pagar.
              
 
 ##### Curso basico
