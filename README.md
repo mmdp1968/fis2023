@@ -14,7 +14,6 @@ Fernando Magliano
 
 ## Creacion de repositorio Git y Github ##
 
-- Creamos un repositorio local usando el comando git init para trabajar de forma local
 - Creamos en Github una cuenta 
 - Creamos un repositorio en Github para centralizar todo el codigo 
 - Clonamos el repositorio remoto para trabajar de forma local con git clone <link>
