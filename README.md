@@ -153,17 +153,15 @@ De las entrevistas realizadas, y de los datos de la ingenieria inversa se tiraro
 ver en fis2023/modeloconceptual
 
 
-
-
 # ESPECIFICACIONES #
 
-## Requisitos funcionales ##
+## Requerimientos funcionales ##
 
 - Permitir ver los menus diarios y alternativos 
   Actor: Usuario. 
   Descripcion: El sistema debe permitir ver el menu diario y el alternativo (en caso de intoleracia, alergico, diabetico) y al final salir y volver a la pantalla de Inicio.
   No puede ser modificado por el usuario
-  Prioridad: baja.
+  Prioridad: media.
 
 - Permitir hacer pedidos
   Actor: Usuario
@@ -216,19 +214,24 @@ ver en fis2023/modeloconceptual
   Descripcion: El sistema debe permitir que el Funcionario del comedor pueda modificar la  descripcion de un plato determinado, como por ejemplo los ingredientes utilizados en su preparación.
   Prioridad: Alta.
 
+- Permitir al usuario agregar un niño
+  Actor: Usuario.
+  Descripcion: El sistema debe permitir al usuario agragar a un niño, para asi poder diferenciar entre niños a cargo y poder administrar comidas por separado.
+  Prioridad: Alta.
 
 
-
-## Requisitos no funcionales ##
+## Requerimientos no funcionales ##
 
 - El sistema debe poder permitir ingresar 500 ocurrencias (cantidad de niños de la escuela).
 - La interfaz de usuario será implementada para navegadores web únicamente con HTML5 y JavaScript.
-- La aplicación debe ser compatible con todas las versiones de Windows, desde Windows 95.
-- La aplicación debe ser compatible con todas las versiones de android, desde android 9.0
+- La aplicación debe ser compatible con todas las versiones de Windows a partir de Windows 7 version 6.1.
+- La aplicación debe ser compatible con todas las versiones de android, desde android 9.0.
 - El sistema debe ser responsive.
 - El sistema debe ser compatible con todas las versiones de IOS 14.0 en adelante.
 - La Aplicación debe ser bilingue, o sea que tenga la opción de elegir entre español o inglés.
 - La Aplicación debe tener disponible para su uso un modo oscuro y un modo claro.
+- El sistema debe proporcionar mensajes de error que sean informativos y orientados al usuario.
+
 
 ## User Stories / User casos detallados ##
 
