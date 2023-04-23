@@ -6,32 +6,30 @@
 .html,bodyprincipal {
     margin:0;
     padding:0;
-    height:100vh;
-    width: 100%;
+    
 }
 .bodyprincipal{
-    background: "imagenesfis2023/fondo.png";
+    
     background-position:center center ;     /*  deja la imagen de fondo centrada vertical y horizontalmente*/    
     background-repeat: no-repeat;
-    background-size:cover  ;       /*  la imagen de fondo se reescala automaticamente con el cambio del ancho de ventana del navegador */
-    background-attachment:fixed ;  /*  la imagen se fija en la ventana de visualizacion para que la altura de la imagen no supere a la del contenido */
-    background-color: rgb(15, 5, 5);
-    object-fit: cover;
-    object-position: bottom;
+    background-size: cover ;       /*  la imagen de fondo se reescala automaticamente con el cambio del ancho de ventana del navegador */
+    background-attachment:fixed;  /*  la imagen se fija en la ventana de visualizacion para que la altura de la imagen no supere a la del contenido */
+    background-color: black;
+    
     
 } 
 
 
 footer{
-    bottom:0;
-    width: 80%;
-    height: 20%;
-    position:absolute;
+    width:100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
 }
 
-a:hover.btn btn-warning {
-
-    padding:10px;
+a:hover {
+   
+    padding: 10px;
 }
 
 
