@@ -43,7 +43,7 @@ Fernando Magliano
 - git checkout ... te permite desplazarte entre las ramas creadas por git branch
  
  
-# VERSIONADO #
+ # VERSIONADO #
 
 ## Buenas practicas y uso de ramas separadas ##
 
@@ -61,6 +61,23 @@ Fernando Magliano
 - Todos los commit llevaran un nombre acorde al cambio realizado
 - El comando git log lista las confirmaciones hechas sobre ese repositorio en orden cronologico inverso
 - git log -p muestra las diferencias introducias en cada confirmacion
+- Los commits usarán un formato estándar definido como "conventional commits" donde los commits serán con el formato : tipo(scope opcional): descripción del commit. También se tienen los llamados "Scopes" en este estandar, estos "Scopes" son opcionales y sirven para especificar el alcance del commit, en nuestro caso decidimos utilizarlos ya que consideramos que mejoran la calidad del commit al proveer más información sobre el mismo. Eventualmente se pueden añadir "footers" y un "cuerpo de mensaje" para cada commit con fin de darle un formato más formal al mismo, en nuestro caso decidimos no usar ni "footers" ni "cuerpo de mensaje" ya que consideramos que no nos aporta nada productivo.
+
+Los tipos de commit definidos a utilizar son:
+    
+    - feat: Una nueva característica o funcionalidad.
+    - fix: Un error corregido.
+    - BREAKING CHANGE: Un cambio que contenga un signo ! despues del tipo, rompe la compatibilidad con versiones anteriores.
+    - build: Cambios que afectan el sistema de compilación o dependencias externas (ej. cambios en el package.json).
+    - ci: Cambios en nuestros archivos y scripts de configuración de integración continua.
+    - docs: Cambios en la documentación.
+    - chore: Otros cambios que no afectan el código fuente.
+    - perf: Un cambio de código que mejora el rendimiento.
+    - refactor: Un cambio de código que no corrige un error ni agrega una característica.
+    - style: Cambios que no afectan el significado del código (espacios en blanco, formato, puntos y comas faltantes, etc).
+    - test: Agregar pruebas faltantes o corregir pruebas existentes.
+
+    La razón de la utilización de este tipo de commits es que mejoran enormemente la expresividad de cada commit, enriqueciendo el historial de commits.
 
 
 # ELICITACION #
