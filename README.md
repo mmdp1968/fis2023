@@ -157,66 +157,66 @@ ver en fis2023/modeloconceptual
 
 ## Requerimientos funcionales ##
 
-- Permitir ver los menus diarios y alternativos 
+- RF1 - Permitir ver los menus diarios y alternativos 
   Actor: Usuario. 
   Descripcion: El sistema debe permitir ver el menu diario y el alternativo (en caso de intoleracia, alergico, diabetico) y al final salir y volver a la pantalla de Inicio.
   No puede ser modificado por el usuario
   Prioridad: media.
 
-- Permitir hacer pedidos
+- RF2 - Permitir hacer pedidos
   Actor: Usuario
   Descripcion: La aplicacion debe permitir a los padres hacer los pedidos para sus respectivos hijos para un dia o para toda la semana.
   Prioridad: Media.
 
-- Permitir al comedor ingresar las compras 
+- RF3 - Permitir al comedor ingresar las compras 
   Actor: Personal del Comedor 
   Descripcion: El sistema proporcionara una lista de los productos a la venta y se deben marcar lo que corresponda (o con lector de barra), en la lista ya sale el precio unitario del producto. El sistema pedira la forma de pago de los mismos, que puede ser en efectivo en el momento de la compra o lo pone en la cuenta del alumno. 
   Prioridad: Alta.
 
-- Permitir que los padres vean una lista de todos los productos y precios
+- RF4 - Permitir que los padres vean una lista de todos los productos y precios
   Actor: usuario
   Descripcion: El sistema debe permitir ver todos los productos que vende el comedor escolar con sus respectivos precios. 
   No puede ser modificado por los usuarios
   Prioridad: baja.
 
-- Permitir ver las compras de los niños 
+- RF5 - Permitir ver las compras de los niños 
   Actor: Usuario. 
   Descripcion: El sistema debe permitir ver el historial de compras de cada alumno. El usuario debe ingresar la clave del alumno que se forma con el nombre y apellido del niño y el grado al que asiste. Ej. FM6A (Fernando Magliano 6A). Se debera listar todos los consumos con dia, producto y precio de cada uno de ellos, en la lista se van a mostrar los productos comprados en efectivos(ya pagados) y los que estan en la cuenta del alumno con el total a pagar. El usuario no puede modificar solo listar lo comprado por el niño. 
   Prioridad: baja.
 
-- Permitir mandar mensajes o sugerencias 
+- RF6 - Permitir mandar mensajes o sugerencias 
   Actor: Usuario 
   Descripcion: El sistema permitira escribir mensajes o sugerencias al comedor, los mismos seran enviados al Comedor por email. 
   Prioridad: Baja.
 
-- Permitir a los padres pagar en linea
+- RF7 - Permitir a los padres pagar en linea
   Actor: Usuario
   Descripcion: La aplicacion debe permitir pagar los gastos de su hijo en linea
   Prioridad: Alta.
 
-- Notificar al usuario de su próximo pago
+- RF8 - Notificar al usuario de su próximo pago
   Actor: Usuario.
   Descripcion: El sistema debe ser capaz de notificar al usuario una vez al mes cuanto deberá abonar, la cantidad a ser pagada es lo gastado por la cuenta.
   Prioridad: Alta.
 
-- Permitir agregar nuevas funcionalidades al sistema
+- RF9 - Permitir agregar nuevas funcionalidades al sistema
   Actor: Administrador.
   Descripcion: El sistema debe ser capaz de permitir al usuario administrador agregar nuevas funcionalidades a la aplicación.
   Prioridad: Alta.
 
-- Permitir modificar el menú, sea agregar o quitar elementos del menú.
+- RF10 - Permitir modificar el menú, sea agregar o quitar elementos del menú.
   Actor: Funcionario del comedor.
   Descripcion: El sistema debe permitir al Funcionario del comedor agregar o quitar un alimento o bebida.
   Prioridad: Alta.
 
-- Permitir que el Funcionario del comedor pueda modificar una comida del menú.
+- RF11 - Permitir que el Funcionario del comedor pueda modificar una comida del menú.
   Actor: Funcionario del comedor.
   Descripcion: El sistema debe permitir que el Funcionario del comedor pueda modificar la  descripcion de un plato determinado, como por ejemplo los ingredientes utilizados en su preparación.
   Prioridad: Alta.
 
-- Permitir al usuario agregar un niño
+- RF12 - Permitir al usuario agregar un niño
   Actor: Usuario.
-  Descripcion: El sistema debe permitir al usuario agragar a un niño, para asi poder diferenciar entre niños a cargo y poder administrar comidas por separado.
+  Descripcion: El sistema debe permitir al usuario agrEgar a un niño, para asi poder diferenciar entre niños a cargo y poder administrar comidas por separado.
   Prioridad: Alta.
 
 
