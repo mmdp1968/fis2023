@@ -222,15 +222,15 @@ ver en fis2023/modeloconceptual
 
 ## Requerimientos no funcionales ##
 
-- El sistema debe poder permitir ingresar 500 ocurrencias (cantidad de niños de la escuela).
-- La interfaz de usuario será implementada para navegadores web únicamente con HTML5 y JavaScript.
-- La aplicación debe ser compatible con todas las versiones de Windows a partir de Windows 7 version 6.1.
-- La aplicación debe ser compatible con todas las versiones de android, desde android 9.0.
-- El sistema debe ser responsive.
-- El sistema debe ser compatible con todas las versiones de IOS 14.0 en adelante.
-- La Aplicación debe ser bilingue, o sea que tenga la opción de elegir entre español o inglés.
-- La Aplicación debe tener disponible para su uso un modo oscuro y un modo claro.
-- El sistema debe proporcionar mensajes de error que sean informativos y orientados al usuario.
+- RNF1 - El sistema debe poder permitir ingresar 500 ocurrencias (cantidad de niños de la escuela).
+- RNF2 - La interfaz de usuario será implementada para navegadores web únicamente con HTML5 y JavaScript.
+- RNF3 - La aplicación debe ser compatible con todas las versiones de Windows a partir de Windows 7 version 6.1.
+- RNF4 - La aplicación debe ser compatible con todas las versiones de android, desde android 9.0.
+- RNF5 - El sistema debe ser responsive.
+- RNF6 - El sistema debe ser compatible con todas las versiones de IOS 14.0 en adelante.
+- RNF7 - La Aplicación debe ser bilingue, o sea que tenga la opción de elegir entre español o inglés.
+- RNF8 - La Aplicación debe tener disponible para su uso un modo oscuro y un modo claro.
+- RNF9 - El sistema debe proporcionar mensajes de error que sean informativos y orientados al usuario.
 
 
 ## User Stories / User casos detallados ##
