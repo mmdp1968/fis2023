@@ -406,7 +406,7 @@ Los bocetos de la interfaz se pueden ver en fis2023/bocetosIU.
 
 | Requerimientos | RF1 | RF2 | RF3 | RF4 | RF5 | RF6 | RF7 | RF8 | RF9 | RF10 | RF11 | RF12 |
 |----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|
-                                                                                           |
+                                                                                           
 | VERIFICABLE    | SI | SI | SI | SI | SI | SI | SI | SI | SI | SI | SI | SI |
 
 | CONSISTENTE    | SI | SI | SI | SI | SI | SI | SI | SI | SI | SI | SI | SI |
