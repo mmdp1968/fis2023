@@ -270,10 +270,7 @@ _________________
  El usuario debe poder ingresar a la aplicacion para poder ver los diferentes menus, la lista de los precios, el historial de compras, hacer pedidos o pagar en linea.
 
 
-
-
-
-
+_____________________
 
 ### Casos de Uso ###
 
