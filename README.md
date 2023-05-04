@@ -216,7 +216,7 @@ ver en fis2023/modeloconceptual
 
 - RF12 - Permitir al usuario agregar un niño
   Actor: Usuario.
-  Descripcion: El sistema debe permitir al usuario agrEgar a un niño, para asi poder diferenciar entre niños a cargo y poder administrar comidas por separado.
+  Descripcion: El sistema debe permitir al usuario agregar a un niño, para asi poder diferenciar entre niños a cargo y poder administrar comidas por separado.
   Prioridad: Alta.
 
 
@@ -234,6 +234,46 @@ ver en fis2023/modeloconceptual
 
 
 ## User Stories / User casos detallados ##
+
+### Historias de usuarios ###
+#### historia  1  ####
+_________________
+
+##### Titulo:
+ Ingreso de personal del comedor
+##### Narrativa:
+ Como personal del comedor debo poder ingresar todos los menus, el menu diario o el semanal, el menu alternativo, la lista de los productos que vende el comedor.
+ Tambien debo poder modificar los menus e ingresar las diferentes compras de cada uno de los alumnos
+##### Criterios de aceptacion:
+- debe pertenecer al staff del comedor
+
+
+#### historia 2  ####
+_________________
+##### Titulo:
+  Ingreso del administrador de la aplicacion
+
+##### Narrativa:
+  Como administrador debo poder ingresar a todos los niveles de la aplicacion para hacer actualizaciones  o modificaciones a la misma.
+
+##### Criterios de aceptacion:
+ - debe ser el administrador de la aplicacion.
+
+
+#### historia 3  ####
+_________________
+
+##### Titulo:
+  Ingreso de los usuarios en general.
+
+##### Narrativa:
+ El usuario debe poder ingresar a la aplicacion para poder ver los diferentes menus, la lista de los precios, el historial de compras, hacer pedidos o pagar en linea.
+
+
+
+
+
+
 
 ### Casos de Uso ###
 
@@ -334,7 +374,7 @@ ________________________________________________________________________________
 # ----------------------------
 
 Actor: Personal del Comedor
-Descripcion: el sistema abre el area de los menus y permite cambiar el menu o eliminar productos de los mismos
+Descripcion: el sistema abre el area de los menus y permite cambiar el menu o eliminar productos de los mismos incluye los requerimientos funcionales 10 y 11
 
 #### Curso basico
 ##### Accion de los usuarios                                                   Respuesta del sistema
@@ -366,6 +406,12 @@ Los bocetos de la interfaz se pueden ver en fis2023/bocetosIU.
 
 
 # VALIDACION Y VERIFICACION
+
+
+
+
+
+
 
 
 # REFLEXION
