@@ -1,56 +1,62 @@
 export class Alimento
 {
-        constructor(id, nombre, descripcion, fechaSubida, cantCalorias) 
+    #id;
+    #nombre;
+    #descripcion;
+    #fechaSubida;
+    #cantCalorias;
+    
+       constructor(id, nombre, descripcion, fechaSubida, cantCalorias) 
         {
-        this._id = id;
-        this._nombre = nombre;
-        this._descripcion = descripcion;
-        this._fechaSubida = fechaSubida;
-        this._cantCalorias = cantCalorias;
+        this.#id = id;
+        this.#nombre = nombre;
+        this.#descripcion = descripcion;
+        this.#fechaSubida = fechaSubida;
+        this.#cantCalorias = cantCalorias;
         }
     
       // Getter y Setter para id
       get id() {
-        return this._id;
+        return this.#id;
       }
       set id(value) {
-        this._id = value;
+        this.#id = value;
       }
     
       // Getter y Setter para nombre
       get nombre() {
-        return this._nombre;
+        return this.#nombre;
       }
       set nombre(value) {
-        this._nombre = value;
+        this.#nombre = value;
       }
     
       // Getter y Setter para descripcion
       get descripcion() {
-        return this._descripcion;
+        return this.#descripcion;
       }
       set descripcion(value) {
-        this._descripcion = value;
+        this.#descripcion = value;
       }
     
       // Getter y Setter para fechaSubida
       get fechaSubida() {
-        return this._fechaSubida;
+        return this.#fechaSubida;
       }
       set fechaSubida(value) {
-        this._fechaSubida = value;
+        this.#fechaSubida = value;
       }
     
       // Getter y Setter para cantCalorias
       get cantCalorias() {
-        return this._cantCalorias;
+        return this.#cantCalorias;
       }
       set cantCalorias(value) {
-        this._cantCalorias = value;
+        this.#cantCalorias = value;
       }
 
       toString() {
-        return `ID: ${this._id}\nNombre: ${this._nombre}\nDescripción: ${this._descripcion}\nFecha de subida: ${this._fechaSubida}\nCantidad de calorías: ${this._cantCalorias}`;
+        return `ID: ${this.#id}\nNombre: ${this.#nombre}\nDescripción: ${this.#descripcion}\nFecha de subida: ${this.#fechaSubida}\nCantidad de calorías: ${this.#cantCalorias}`;
       }
 
 }

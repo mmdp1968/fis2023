@@ -1,29 +1,32 @@
 export class Ingrediente 
 {
+    #nombre;
+    #calorias;
+
     constructor(nombre, calorias) {
-      this._nombre = nombre;
-      this._calorias= calorias;
+      this.#nombre = nombre;
+      this.#calorias= calorias;
     }
   
     // Getter y Setter para nombre
     get nombre() {
-      return this._nombre;
+      return this.#nombre;
     }
     set nombre(value) {
-      this._nombre = value;
+      this.#nombre = value;
     }
 
        // Getter y Setter para nombre
        get calorias() {
-        return this._calorias;
+        return this.#calorias;
       }
       set calorias(value) {
-        this._calorias = value;
+        this.#calorias = value;
       }
   
 
     // Método toString para obtener una representación en forma de cadena de texto
     toString() {
-      return `${this._nombre} (${this._cantidad})`;
+      return `${this.#nombre} (${this.#cantidad})`;
     }
 }
