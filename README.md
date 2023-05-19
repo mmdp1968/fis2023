@@ -267,7 +267,7 @@ _________________
   Ingreso de los usuarios en general.
 
 ##### Narrativa:
- El usuario debe poder ingresar a la aplicacion para poder ver los diferentes menus, la lista de los precios, el historial de compras, hacer pedidos o pagar en linea.
+ Como usuario debo poder ingresar a la aplicacion para poder ver los diferentes menus, la lista de los precios, el historial de compras, hacer pedidos o pagar en linea.
 
 
 _____________________
@@ -404,6 +404,15 @@ Los bocetos de la interfaz se pueden ver en fis2023/bocetosIU.
 
 # VALIDACION Y VERIFICACION
 
+Nos reunimos y verificamos y validamos los requerimientos contra una lista de criterios:
+- Verificable: Tiene cada requerimiento una unica interpretacion (no ambiguo), y puede ser verificado por alguna prueba o analisis.
+- Consistente: Estan los requerimientos escritos en forma consistentes y no hay conflicto entre ellos.
+- Preciso: 
+- Priorizado:
+- Viable: 
+
+
+
 ## VALIDACION DE REQUERIMIENTOS FUNCIONALES
 
 
@@ -415,6 +424,10 @@ Los bocetos de la interfaz se pueden ver en fis2023/bocetosIU.
 | PRIORIZADO     | SI  | SI  | SI  | SI  | SI  | SI  | SI  | SI  | SI  | SI   | SI   | SI   |
 | VIABLE         | SI  | SI  | SI  | SI  | SI  | SI  | SI  | SI  | SI  | SI   | SI   | SI   |
 ```
+
+## VALIDACION DE REQUERIMIENTOS NO FUNCIONALES
+
+
 
 
 
