@@ -1,5 +1,7 @@
 export class IngredienteList
 {
+  #ingredientes;
+
     constructor() {
         this.#ingredientes = [];
       }
@@ -8,9 +10,18 @@ export class IngredienteList
       agregarIngrediente(ingrediente) {;
         this.#ingredientes.push(ingrediente);
       }
+
+      add(ingrediente) {
+        let ingredienteInList = this.#ingredientes.some(i => i.getNombre() == ingrediente.getNombre());
+        if (!ingredienteInList && ingrediente.isValid()) {
+          this.#ingredientes.push(ingrediente);
+        } else {
+          throw new Error(`No se pudo agregar. ${ingrediente.getNombre()} ya está en la lista.`);
+        }
+      }
     
       // Método para obtener la lista de ingredientes
-      obtenerIngredientes() {
+      getIngredientes() {
         return this.#ingredientes;
       }
     

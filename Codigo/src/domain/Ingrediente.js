@@ -23,10 +23,22 @@ export class Ingrediente
       set calorias(value) {
         this.#calorias = value;
       }
+
+
+
+  isValid() {
+    if (this.#nombre === undefined || this.#nombre === null || this.#nombre === '') {
+      throw new Error('El nombre del ingrediente no puede ser vacío');
+    }
+    if (this.#calorias === undefined || this.#calorias === null || this.#calorias === '') {
+      throw new Error('El ingrediente tiene que tener calorias');
+    }
+    return true;
+  }
   
 
     // Método toString para obtener una representación en forma de cadena de texto
     toString() {
-      return `${this.#nombre} (${this.#cantidad})`;
+      return `${this.#nombre} (${this.#calorias})`;
     }
 }

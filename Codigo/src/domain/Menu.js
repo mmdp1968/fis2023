@@ -1,4 +1,5 @@
-export class Menu extends Alimentos 
+import { Alimento } from './alimento.js';
+export class Menu extends Alimento
 {
     #diaDeLaSemana;
     #tipoMenu;

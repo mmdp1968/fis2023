@@ -13,3 +13,24 @@
     bottom: 0;
     right: 20px;
 }
+
+
+  .list-group-item.selected {
+    background-color: #F2F2F2;; /* Reemplaza esto con el color deseado */
+  }
+
+  .list-group-item.hover {
+    cursor: pointer;
+  }
+
+
+  .btn-modificar {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 5px;
+  }
+
+  .formulario-oculto {
+    display: none;
+  }

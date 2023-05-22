@@ -55,8 +55,9 @@ export class Alimento
         this.#cantCalorias = value;
       }
 
+
       toString() {
-        return `ID: ${this.#id}\nNombre: ${this.#nombre}\nDescripción: ${this.#descripcion}\nFecha de subida: ${this.#fechaSubida}\nCantidad de calorías: ${this.#cantCalorias}`;
+        return `Nombre: ${this.#nombre}\nDescripción: ${this.#descripcion}\nFecha de subida: ${this.#fechaSubida}\nCantidad de calorías: ${this.#cantCalorias}`;
       }
 
 }
